@@ -10,6 +10,7 @@ It also contains the results produced by the model for each unit, with numbers o
 The model file contains the restrictions, decision variables and objective function (total cost) used by the model, which is the extension OpenSolver in GoogleSheets.
 The yellow cells in the upper part of the sheet should be completed with the minimum of workers for each unit in the data file.
 The OpenSolver sidebar should be completed as the following image:
+
 <img width="257" height="757" alt="image" src="https://github.com/user-attachments/assets/e21c26a3-5b7c-43c6-9959-d4b46fe993d7" />
 
 After running the model, the optimal solution should appear in the bottom, with the number of workers in each regime and the total monthly cost for the unit.
