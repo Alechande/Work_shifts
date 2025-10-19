@@ -2,8 +2,8 @@
 This repository contains the data and model to help developing work shifts for operational workers in a dark kitchen company.
 
 # Data
-The data file contains the upper tolerance limit of orders for both kitchens and retail operations, covering 90% of orders with 95% confidence.\\
-This file also has the minimum of workers for each hour and weekday in each unit, calculated by the UTLs of orders and rounded to the next higher integer.\\
+The data file contains the upper tolerance limit of orders for both kitchens and retail operations, covering 90% of orders with 95% confidence.\n
+This file also has the minimum of workers for each hour and weekday in each unit, calculated by the UTLs of orders and rounded to the next higher integer.\n
 It also contains the results produced by the model for each unit, with numbers of workers in each regime and total cost.
 
 # Model
