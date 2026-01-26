@@ -4,7 +4,8 @@ This repository contains the data and model to help developing work shifts for o
 # Data
 The data file contains the upper tolerance limit of orders for both kitchens and retail operations, covering 90% of orders with 95% confidence.<br>
 This file also has the minimum of workers for each hour and weekday in each unit, calculated by the UTLs of orders and rounded to the next higher integer.<br>
-It also contains the results produced by the model for each unit, with numbers of workers in each regime and total cost.
+It also contains the results produced by the model for each unit, with numbers of workers in each regime and total cost.<br>
+Finally, it aggregates all test data from the sensitivity analysis, which can be replicated.
 
 # Model
 The model file contains the restrictions, decision variables and objective function (total cost) used by the model, which is the extension OpenSolver in GoogleSheets.<br>
